@@ -55,13 +55,19 @@ p{
     color: var(--Transparentwhite);
 }
 h2{
-    padding-left: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2.6rem;
+    margin-left: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
-.btn-primary{
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.div-2{
+    background-color: var(--Darkcyan);
+}.btn-primary{
+    padding-left: 0.4rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     border-radius: 2rem;
@@ -69,13 +75,9 @@ h2{
     background-color: var(--Verylightgraybackground);
     color: var(--Brightorange);
     border: none;
-}
-.wrapper{
-    display: flex;
-    flex-direction: row;
-}
-.div-2{
-    background-color: var(--Darkcyan);
+    padding-right: 0.4rem;
+    width: 55%;
+    
 }
 .btn{
     padding-left: 1.6rem;
@@ -87,6 +89,7 @@ h2{
     background-color: var(--Verylightgraybackground);
     color: var(--Darkcyan);
     border: none;
+    width: 50%;
 }
 .div-3{
     background-color: var(--Verydarkcyan);
@@ -103,18 +106,23 @@ h2{
     background-color: var(--Verylightgraybackground);
     color: var(--Darkcyan);
     border: none;
+    width: 50%;
 }
 .btn-primary:hover{
     background-color: var(--Brightorange);
     color: var(--Transparentwhite);
+    border: 2px solid var(--Transparentwhite);
+
 }
 .btn:hover{
     background-color: var(--Darkcyan);
     color: var(--Transparentwhite);
+    border: 2px solid var(--Transparentwhite);
 }
 .btn-primarys:hover{
     background-color: var(--Verydarkcyan);
     color: var(--Transparentwhite);
+    border: 2px solid var(--Transparentwhite);
 }
 @media (min-width:350px) and (max-width:750px){
     .wrapper{
@@ -153,4 +161,46 @@ h2{
         line-height: 3.5rem;
         color: var(--Transparentwhite);
     }
+    h2{
+        margin-left: 2rem;
+        padding-top: 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    .btn-primary{
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
+        border-radius: 6rem;
+        font-size: 1.5rem;
+        background-color: var(--Verylightgraybackground);
+        color: var(--Verydarkcyan);
+        border: none;
+        width: 40%;
+    }
+
+   .btn{padding-left: 1.6rem;
+    padding-right: 1.6rem;
+padding-top: 1.7rem;
+padding-bottom: 1.7rem;
+border-radius: 6rem;
+font-size: 1.5rem;
+background-color: var(--Verylightgraybackground);
+color: var(--Darkcyan);
+border: none;
+width: 40%;
+}
+.btn-primarys{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    border-radius: 6rem;
+    font-size: 1.5rem;
+    background-color: var(--Verylightgraybackground);
+    color: var(--Verydarkcyan);
+    border: none;
+    width: 40%;
+}
 }

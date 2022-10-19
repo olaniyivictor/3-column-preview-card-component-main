@@ -124,21 +124,20 @@ h2{
     color: var(--Transparentwhite);
     border: 2px solid var(--Transparentwhite);
 }
-@media (min-width:350px) and (max-width:750px){
+@media  screen and (max-width:930px) {
+    body{
+    
+        
+      
+    }
+}
+@media screen and (max-width:700px){
     .wrapper{
         display: flex;
         flex-direction: column;
         margin: 3rem;
     }
    
-     p{
-            padding-left: 3rem;
-            font-size: 1.5rem;
-            font-weight: 400;
-            padding: 3rem;
-            line-height: 2.5rem;
-            color: var(--Transparentwhite);
-        }
         .div-1{
         border-top-right-radius: 0.6rem;
         border-top-left-radius: 0.6rem;
@@ -154,12 +153,9 @@ h2{
 
     }
     p{
-        padding-left: 3rem;
-        font-size: 2.0rem;
-        font-weight: 400;
-        padding: 3rem;
         line-height: 3.5rem;
-        color: var(--Transparentwhite);
+      font-size: 2rem;
+        
     }
     h2{
         margin-left: 2rem;
@@ -168,39 +164,27 @@ h2{
         
     }
     .btn-primary{
-        padding-left: 1.6rem;
-        padding-right: 1.6rem;
-        padding-top: 1.7rem;
-        padding-bottom: 1.7rem;
+       
+        padding-top: 1.4rem;
+        padding-bottom: 1.3rem;
         border-radius: 6rem;
-        font-size: 1.5rem;
-        background-color: var(--Verylightgraybackground);
-        color: var(--Verydarkcyan);
-        border: none;
         width: 40%;
+        font-size: 1rem;
     }
 
-   .btn{padding-left: 1.6rem;
-    padding-right: 1.6rem;
-padding-top: 1.7rem;
-padding-bottom: 1.7rem;
-border-radius: 6rem;
-font-size: 1.5rem;
-background-color: var(--Verylightgraybackground);
-color: var(--Darkcyan);
-border: none;
-width: 40%;
+   .btn{
+    padding-top: 1.4rem;
+    padding-bottom: 1.3rem;
+    border-radius: 6rem;
+    width: 40%;
+    font-size: 1rem;
 }
 .btn-primarys{
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-    padding-top: 1.7rem;
-    padding-bottom: 1.7rem;
+   
+    padding-top: 1.4rem;
+    padding-bottom: 1.3rem;
     border-radius: 6rem;
-    font-size: 1.5rem;
-    background-color: var(--Verylightgraybackground);
-    color: var(--Verydarkcyan);
-    border: none;
     width: 40%;
+    font-size: 1rem;
 }
 }
